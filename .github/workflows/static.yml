@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload folder "Assignment 4"
-          path: './Assignment 4/index.html'
+          path: './Assignment 4'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
