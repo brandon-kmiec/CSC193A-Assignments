@@ -1,0 +1,17 @@
+In your own words, answer the following questions based off your reading from Week 2. Describe your reasoning based off the significance of the reading and your own inferences. Answer each question using one well-formed paragraph.
+
+1. Is there a thing such as using too much CSS? Is it bad style to use inline CSS?
+	Yes, it is possible to use too much CSS.  CSS is useful for styling and formatting HTML, but if used too much, it can cause a website to feel overwhelming, disorganized, and inaccessible such as the Gates N Fences website from the CSS & Flex slides.  Too much CSS may also be resource-intensive while the website is open.  For very small, simple HTML tasks such as with assignment 2, inline CSS may be okay.  For large complex HTML tasks, inline CSS could make the code appear cluttered, confusing, unorganized, and inaccessible.
+	
+2. Would there ever be a need for multiple CSS files to be linked to a single HTML file?
+	Yes, there could be a need for multiple CSS files linked to a single HTML file.  Multiple CSS files could be used to store different styles and formats.  If an HTML file needs to use different styling or formatting for different parts of the page, using multiple CSS files would allow for existing CSS files to be used instead of creating new files for every HTML file.
+
+3. Do advanced websites also still use HTML, CSS and JavaScript? For example, the apple website. It isn't like any other website and has some fancy aspects to it.
+	Yes, advanced websites like the Apple website still use HTML, CSS, and JavaScript.  Checking the sources tab in the inspect element tool on the Apple website reveals that HTML, CSS, and JavaScript are being used.  What makes the Apple website different from other websites is how they use HTML, CSS, and JavaScript to style the website.  Any website is capable of having the fancy aspects the Apple website has, the features just need to be implemented using the existing resources.
+	
+4. What are the limits of html? (Where does the language get more complex or difficult compared to other coding languages)
+	HTML works great for making a basic website.  Its limits become visible when trying to implement style, formatting, interactivity, and logic.  Improving style and formatting requires the use of CSS.  Adding advanced interactivity and logic requires JavaScript and other high-level languages.
+	
+5. Besides the discussion problems above, describe one unique perspective you gained from the reading on web technologies.
+	A unique perspective I gained was learning about how much went into making a website.  I used to think that it was doable all in one language.  It was interesting to learn how HTML is used for the basic website structure, how CSS can be used for styling and formatting, and how JavaScript can be used for interactivity and logic.
+	
