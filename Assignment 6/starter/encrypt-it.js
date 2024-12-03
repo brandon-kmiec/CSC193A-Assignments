@@ -28,30 +28,43 @@
   // Add any other functions in this area (you should not implement your
   // entire program in the init function, for similar reasons that
   // you shouldn't write an entire Java program in the main method).
+  
+  /**
+   * Receive input from the input-text textarea
+   * Encrypt the input using a shift cipher
+   * place the encrypted text in the result paragraph
+   */
   function handleClick() {
     console.log("Button Clicked! (encrypt-it)");
 
     var plainText = document.getElementById("input-text").value;
     var cipherText = shiftCipher(plainText);
-    console.log(cipherText);
     document.getElementById("result").innerHTML = cipherText;
   }
 
+  /**
+   * Clears the input-text textarea
+   */
   function handleReset() {
     console.log("Button Clicked! (reset)")
 
     document.getElementById("input-text").value = "";
   }
 
+  /**
+   * Returns an encrypted version of the given text, where
+   * each letter is shifted alphabetically ahead by 1 letter,
+   * and 'z' is shifted to 'a' (creating an alphabetical cycle).
+   */
   function shiftCipher(text) {
-    //text = text.toLowerCase();
+    text = text.toLowerCase();
 
     let result = "";
 
     for (let i = 0; i < text.length; i++) {
-      if ((text[i] >= 'a' && text[i] < 'z') || (text[i] >= 'A' && text[i] < 'Z'))
+      if ((text[i] >= 'a' && text[i] < 'z')/* || (text[i] >= 'A' && text[i] < 'Z')*/)
         result += String.fromCharCode(text.charCodeAt(i) + 1);
-      else if (text[i] == 'z' || text[i] == 'Z')
+      else if (text[i] == 'z'/* || text[i] == 'Z'*/)
         result += String.fromCharCode(text.charCodeAt(i) - 25);
     }
     return result;
