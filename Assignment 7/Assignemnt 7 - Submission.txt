@@ -1,0 +1,5 @@
+1.  What is a Promise object?
+
+2.  Does AJAX know what the user is asking for by taking the value in the URL Query Parameter?
+
+3.  Does AJAX get linked to an HTML file similar to how a javascript file is linked?
