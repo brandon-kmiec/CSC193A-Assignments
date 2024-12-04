@@ -1,0 +1,1 @@
+Yes, I am currently working on senior project.  We are not using Node.js.  Our full-stack environment uses HTML, JavaScript, and CSS for the front end and C# with an Azure SQL Database for the back end.
